@@ -1,0 +1,7 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: chatbot-dec6-2-model-config
+data:
+  MODEL_ENDPOINT: "http://chatbot-dec6-1-model-server.chatbot-dec6-1:8001"
+  MODEL_NAME: "instructlab/granite-7b-lab"
